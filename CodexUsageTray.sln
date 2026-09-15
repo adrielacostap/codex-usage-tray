@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexUsageTray", "src\CodexUsageTray\CodexUsageTray.csproj", "{A98DAAD0-19AA-4D43-86B4-E43C783F7794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexUsageTray.Core", "src\CodexUsageTray.Core\CodexUsageTray.Core.csproj", "{4A70D058-3E93-4B2C-A146-351B61719074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodexUsageTray.Tests", "tests\CodexUsageTray.Tests\CodexUsageTray.Tests.csproj", "{B95430E6-D8BD-4998-BE75-0677E4DAB870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A98DAAD0-19AA-4D43-86B4-E43C783F7794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98DAAD0-19AA-4D43-86B4-E43C783F7794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98DAAD0-19AA-4D43-86B4-E43C783F7794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98DAAD0-19AA-4D43-86B4-E43C783F7794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A70D058-3E93-4B2C-A146-351B61719074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A70D058-3E93-4B2C-A146-351B61719074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A70D058-3E93-4B2C-A146-351B61719074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A70D058-3E93-4B2C-A146-351B61719074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95430E6-D8BD-4998-BE75-0677E4DAB870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95430E6-D8BD-4998-BE75-0677E4DAB870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95430E6-D8BD-4998-BE75-0677E4DAB870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95430E6-D8BD-4998-BE75-0677E4DAB870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
